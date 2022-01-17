@@ -11,26 +11,17 @@
 </head>
 <body>
   <div id="app" class="container">
-    <header class="">
+    <header>
       <h1 class="text-center">{{ iniciales }} - {{ cargo }}</h1>
       <p class="text-center">{{ lema }}</p>
-      <nav class="">
-        <ul class="nav nav-pills nav-justified">
-          <li><a href="/">Home</a></li>
-          <li><a href="/sobre-mi">Sobre mi</a></li>
-          <li><a href="/proyectos">Proyectos</a></li>
-          <li><a href="/contacto">Contacto</a></li>
-        </ul>
-      </nav>
+      <Nav id="nav"></Nav>
     </header>
-    <footer class="footer">
-      <p class="text-center">Realizado para practicar.</p>
-    </footer>
-    <Footer id="footer"></Footer>
+    <Footer id="footer" class="footer"></Footer>
   </div>
   
   <script src="https://unpkg.com/vue@next"></script>
   <script src="app.js"></script>
+  <script src="./Nav.js"></script>
   <script src="./Footer.js"></script>
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
